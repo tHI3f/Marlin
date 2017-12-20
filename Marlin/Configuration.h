@@ -500,7 +500,7 @@
   #endif
 
     // Horizontal offset from middle of printer to smooth rod center.
-  #define DELTA_SMOOTH_ROD_OFFSET 152 // mm
+  #define DELTA_SMOOTH_ROD_OFFSET 151.7 // mm
 
     // Horizontal offset of the universal joints on the end effector.
   #define DELTA_EFFECTOR_OFFSET 31 // mm
@@ -515,7 +515,7 @@
   #define DELTA_DIAGONAL_ROD 218.0 // mm
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 326.1 // get this value from auto calibrate
+  #define DELTA_HEIGHT 326.55 // get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
